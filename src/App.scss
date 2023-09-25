@@ -1,0 +1,253 @@
+.editable-row-operations {
+  a,
+  span {
+    margin-right: 8px;
+
+    &.iconWrapper {
+      cursor: pointer;
+      //border: 1px solid #08c;
+      //padding: 5px 6px;
+      // padding: 0.5em 0.6em;
+      //border-radius: 50%;
+      font-size: 14px;
+      color: #ffffff;
+
+      //background-color: #08c;
+      &.save {
+        color: #ffffff;
+        background-color: green;
+      }
+
+      &.cancel {
+        color: #ffffff;
+        background-color: #ff4d4f;
+      }
+    }
+  }
+}
+
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell {
+  background: #a7aaac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editable-row-operations {
+  a,
+  span {
+    margin-right: 4px;
+
+    &.iconWrapper {
+      cursor: pointer;
+      border: 1px solid #dbae58;
+      padding: 0 5px 5px 5px;
+      //padding: 5px 6px;
+      //border-radius: 50%;
+      font-size: 14px;
+      color: #ffffff;
+      background-color: #dbae58;
+
+      &.save {
+        color: #ffffff;
+        background-color: green;
+      }
+
+      &.cancel {
+        color: #ffffff;
+        background-color: #ff4d4f;
+      }
+    }
+  }
+}
+
+.editable-row-operations a.iconWrapper:hover,
+.editable-row-operations span.iconWrapper:hover {
+  color: #fff !important;
+  background-color: #dbae58;
+  border-color: #dbae58; //#1591cf;
+}
+
+.editable-row-operations {
+  padding: 0px 5px;
+
+  .cancel {
+    border: 1px solid #f5222d !important;
+    color: #ffffff !important;
+
+    i {
+      color: #fff !important;
+    }
+  }
+
+  .cancel:hover {
+    background-color: #f5222d !important;
+
+    i {
+      color: #ffffff !important;
+    }
+  }
+
+  // .inbox {
+  //   //border: 1px solid #52c41a !important;
+  //   //color: #52c41a !important;
+  //   // i {
+  //   //   //color: #52c41a !important;
+  //   // }
+  // }
+
+  .inbox:hover {
+    background-color: #52c41a !important;
+
+    i {
+      color: #ffffff !important;
+    }
+  }
+}
+
+.ant-table-tbody {
+  tr {
+    td {
+      padding: 0 !important;
+
+      .input-number-field {
+        width: 98.5%;
+      }
+
+      .ant-input {
+        width: 98.5%;
+      }
+    }
+  }
+
+  tr.table-striped-listing {
+    td {
+      padding: 5px 10px !important;
+      border-bottom: unset !important;
+      overflow-wrap: break-word;
+    }
+  }
+}
+
+
+tr.dull-color {
+  background-color: #e4cdcdad;
+}
+
+.body-wrapper {
+  margin: 1rem;
+  padding: 0rem;
+  background: transparent;
+  border-radius: 0px;
+  box-shadow: none;
+
+  .article {
+    padding-bottom: 1rem;
+
+    & > .box-default {
+      background-color: #fff;
+      box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+      border: 0px;
+
+      .form-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+
+        .form-heading {
+          & > .title {
+            display: inline-block;
+            padding-right: 12px;
+            line-height: 1.4;
+            text-transform: capitalize;
+            color: #1890ff;
+            margin-bottom: 0;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .table-info-wrapper {
+    margin-bottom: 1rem;
+
+    .ant-table-small {
+      & > .ant-table-content {
+        & > .ant-table-body {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .toolbar-ui-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+  }
+
+  .toolbar-ui-wrapper {
+    .action-btn {
+      & > button {
+        margin-right: 8px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .auto-scrollWrapper {
+    overflow-x: auto;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .bold-title-wrapper {
+    & > span {
+      font-weight: bold;
+    }
+
+    .row-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .section {
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.table-group .inlineTable .ant-table-thead > tr > th {
+  background: linear-gradient(0deg, rgb(91, 195, 191), rgb(36, 51, 69));
+}
+
+.search-text{
+  width: 38%;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
