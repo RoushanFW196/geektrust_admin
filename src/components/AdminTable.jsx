@@ -123,9 +123,9 @@ const AdminTable = () => {
 
   const getusers = async () => {
     const getdata = await axios.get(
-      `http://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json`
+      `https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json`
     );
-    // const getdata= await axios.get(`${USER_URl}`) in this urls are getting concatenated. find out why?
+    
     const getallusers = getdata["data"];
     userRef.current = getallusers;
     setUsers(getallusers);

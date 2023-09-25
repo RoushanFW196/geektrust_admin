@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import AdminTable from './components/AdminTable'
-import './app.scss';
+import './App.scss';
 function App() {
 
   return (
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
